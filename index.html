@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="pt-br" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Multi Farma Aero | Cuidando de Você</title>
+    <meta name="description" content="A Multi Farma Aero oferece produtos farmacêuticos, cosméticos e itens de higiene com qualidade e preços acessíveis em Macaé.">
+    <meta property="og:title" content="Multi Farma Aero - Sua Farmácia em Macaé">
+    <meta property="og:description" content="Medicamentos com até 90% de desconto e entrega grátis.">
+    <meta property="og:image" content="https://multifarmaaero.com.br/img/1.jpeg" />
+    <meta property="og:type" content="website">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="style.css">
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        primary: '#E11D48',
+                        secondary: '#1E40AF',
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+<body class="bg-gray-50 text-gray-800 overflow-x-hidden">
+
+    <header id="header" class="fixed w-full z-50 transition-all duration-300 py-4">
+        <div class="container mx-auto px-6 flex justify-between items-center">
+            <div class="text-white font-bold text-2xl tracking-tighter">
+                <span class="bg-primary px-2 py-1 rounded">MULTI</span>FARMA
+            </div>
+            
+            <nav class="hidden md:flex space-x-8 items-center text-white font-medium">
+                <a href="#" class="hover:text-primary transition">Início</a>
+                <a href="#sobre" class="hover:text-primary transition">Sobre Nós</a>
+                <a href="#servicos" class="hover:text-primary transition">Serviços</a>
+                <a href="#galeria" class="hover:text-primary transition">Galeria</a>
+                <a href="#contato" class="hover:text-primary transition">Contato</a>
+                <a href="https://wa.me/552299444370" target="_blank" class="bg-green-500 hover:bg-green-600 text-white px-5 py-2 rounded-full flex items-center gap-2 transition transform hover:scale-105">
+                    <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24"><path d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946.003-6.556 5.338-11.891 11.893-11.891 3.181.001 6.167 1.24 8.413 3.488 2.245 2.248 3.481 5.236 3.48 8.414-.003 6.557-5.338 11.892-11.893 11.892-1.99-.001-3.951-.5-5.688-1.448l-6.305 1.654zm6.597-3.807c1.676.995 3.276 1.591 5.392 1.592 5.448 0 9.886-4.434 9.889-9.885.002-5.462-4.415-9.89-9.881-9.892-5.452 0-9.887 4.434-9.889 9.884-.001 2.225.651 3.891 1.746 5.634l-.999 3.648 3.742-.981zm11.387-5.464c-.074-.124-.272-.198-.57-.347-.297-.149-1.758-.868-2.031-.967-.272-.099-.47-.149-.669.149-.198.297-.768.967-.941 1.165-.173.198-.347.223-.644.074-.297-.149-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.297-.347.446-.521.151-.172.2-.296.3-.495.099-.198.05-.372-.025-.521-.075-.148-.669-1.611-.916-2.206-.242-.579-.487-.501-.669-.51l-.57-.01c-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.095 3.2 5.076 4.487.709.306 1.263.489 1.694.626.712.226 1.36.194 1.872.118.571-.085 1.758-.719 2.006-1.413.248-.695.248-1.29.173-1.414z"/></svg>
+                    WhatsApp
+                </a>
+            </nav>
+
+            <button id="menu-btn" class="md:hidden text-white focus:outline-none">
+                <svg class="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7"></path></svg>
+            </button>
+        </div>
+
+        <div id="mobile-menu" class="hidden md:hidden bg-white/95 backdrop-blur-md absolute top-full left-0 w-full shadow-xl flex flex-col p-6 space-y-4 text-gray-800">
+            <a href="#" class="nav-link">Início</a>
+            <a href="#sobre" class="nav-link">Sobre Nós</a>
+            <a href="#servicos" class="nav-link">Serviços</a>
+            <a href="#galeria" class="nav-link">Galeria</a>
+            <a href="#contato" class="nav-link">Contato</a>
+        </div>
+    </header>
+
+    <section id="inicio" class="relative h-screen flex items-center justify-center overflow-hidden">
+        <div class="absolute inset-0 z-0">
+            <img src="img/3.jpeg" alt="Interior Multi Farma" class="w-full h-full object-cover">
+            <div class="absolute inset-0 bg-black/60"></div>
+        </div>
+        
+        <div class="relative z-10 text-center px-6 reveal">
+            <h1 class="text-5xl md:text-7xl font-extrabold text-white mb-4 drop-shadow-lg">BIG-FARMA</h1>
+            <p class="text-xl md:text-2xl text-gray-200 mb-8 max-w-2xl mx-auto">Cuidando de você com responsabilidade e dedicação.</p>
+            <a href="https://wa.me/552299444370" class="bg-primary hover:bg-red-700 text-white px-10 py-4 rounded-full text-lg font-bold transition transform hover:scale-110 inline-block">
+                Faça seu Pedido
+            </a>
+        </div>
+    </section>
+
+    <section id="sobre" class="py-24 bg-white">
+        <div class="container mx-auto px-6 max-w-4xl text-center reveal">
+            <h2 class="text-4xl font-bold mb-12 text-gray-900">Sobre Nós</h2>
+            <div class="space-y-6 text-lg text-gray-600 leading-relaxed">
+                <p>A Multi Farma Aero é uma empresa dedicada ao cuidado com a saúde e ao bem-estar da população, oferecendo produtos farmacêuticos, cosméticos e itens de higiene com qualidade e preços acessíveis. A empresa atua no comércio varejista de medicamentos, sempre buscando atender seus clientes com responsabilidade, confiança e compromisso com a saúde.</p>
+                <p>Nosso objetivo é facilitar o acesso da comunidade a produtos essenciais para o dia a dia, garantindo atendimento humanizado e orientado para as necessidades de cada cliente. Trabalhamos com medicamentos, produtos de perfumaria, higiene pessoal e outros itens relacionados ao cuidado e à qualidade de vida.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="servicos" class="py-24 bg-gray-100">
+        <div class="container mx-auto px-6">
+            <h2 class="text-4xl font-bold text-center mb-16 reveal">Nossos Serviços</h2>
+            <div class="grid md:grid-cols-3 gap-10">
+                <div class="glass-card p-8 text-center reveal">
+                    <svg class="w-12 h-12 text-primary mx-auto mb-4" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"> <g fill="currentColor"> <path fill="none" d="M0 0H24V24H0z" /> <path d="M19 2v2h-2v3c1.657 0 3 1.343 3 3v11c0 .552-.448 1-1 1H5c-.552 0-1-.448-1-1V10c0-1.657 1.343-3 3-3V4H5V2h14zm-2 7H7c-.552 0-1 .448-1 1v10h12V10c0-.552-.448-1-1-1zm-4 2v2h2v2h-2.001L13 17h-2l-.001-2H9v-2h2v-2h2zm2-7H9v3h6V4z" /> </g> </svg>
+                    <h3 class="text-xl font-bold mb-4">Medicamentos</h3>
+                    <p class="text-gray-600">Ampla linha de medicamentos éticos, genéricos e similares com descontos de até 90%.</p>
+                </div>
+                <div class="glass-card p-8 text-center reveal">
+                    <svg class="w-12 h-12 text-primary mx-auto mb-4" fill="currentColor" version="1.1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 442 442"> <g> <path d="M231.5,50.5c0-5.79-4.71-10.5-10.5-10.5c-5.79,0-10.5,4.71-10.5,10.5S215.21,61,221,61C226.79,61,231.5,56.29,231.5,50.5z" /> <path d="M346,163.682h-60V122c0-5.522-4.478-10-10-10h-10V10c0-5.523-4.478-10-10-10h-70c-5.523,0-10,4.477-10,10v102h-10 c-5.523,0-10,4.478-10,10v41.682H96c-11.028,0-20,8.972-20,20V422c0,11.028,8.972,20,20,20h250c11.028,0,20-8.972,20-20V183.682 C366,172.653,357.028,163.682,346,163.682z M196,20h50v92h-50V20z M96,422V183.682h70c5.523,0,10-4.477,10-10V132h35v71.682h-85 c-5.523,0-10,4.478-10,10V392c0,5.522,4.477,10,10,10h190c5.522,0,10-4.478,10-10v-60.892c0-5.522-4.478-10-10-10s-10,4.478-10,10 V382H136V223.682h75V352c0,5.522,4.477,10,10,10c5.523,0,10-4.478,10-10V223.682h75V297c0,5.522,4.478,10,10,10s10-4.478,10-10 v-83.318c0-5.522-4.478-10-10-10h-85V132h35v41.682c0,5.523,4.478,10,10,10h70L346.002,422H96z" /> </g> </svg>
+                    <h3 class="text-xl font-bold mb-4">Perfumaria</h3>
+                    <p class="text-gray-600">Produtos de higiene pessoal, cosméticos e dermocosméticos das melhores marcas.</p>
+                </div>
+                <div class="glass-card p-8 text-center reveal">
+                    <svg class="w-12 h-12 text-primary mx-auto mb-4" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <circle cx="10" cy="6" r="4" stroke="currentColor" stroke-width="1.5"/>
+                        <path d="M19 2C19 2 21 3.2 21 6C21 8.8 19 10 19 10" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+                        <path d="M17 4C17 4 18 4.6 18 6C18 7.4 17 8 17 8" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+                        <path d="M17.9975 18C18 17.8358 18 17.669 18 17.5C18 15.0147 14.4183 13 10 13C5.58172 13 2 15.0147 2 17.5C2 19.9853 2 22 10 22C12.231 22 13.8398 21.8433 15 21.5634" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+                    </svg>
+                    <h3 class="text-xl font-bold mb-4">Atendimento</h3>
+                    <p class="text-gray-600">Equipe qualificada para oferecer um atendimento humanizado e tirar suas dúvidas.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="galeria" class="py-24 bg-white">
+        <div class="container mx-auto px-6">
+            <h2 class="text-4xl font-bold text-center mb-16 reveal">Nossa Loja</h2>
+            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 reveal">
+                <div class="overflow-hidden rounded-xl h-80 group">
+                    <img src="img/1.jpeg" class="w-full h-full object-cover transition duration-500 group-hover:scale-110">
+                </div>
+                <div class="overflow-hidden rounded-xl h-80 group">
+                    <img src="img/4.jpeg" class="w-full h-full object-cover transition duration-500 group-hover:scale-110">
+                </div>
+                <div class="overflow-hidden rounded-xl h-80 group">
+                    <img src="img/5.jpeg" class="w-full h-full object-cover transition duration-500 group-hover:scale-110">
+                </div>
+                <div class="overflow-hidden rounded-xl h-80 group">
+                    <img src="img/6.jpeg" class="w-full h-full object-cover transition duration-500 group-hover:scale-110">
+                </div>
+                <div class="overflow-hidden rounded-xl h-80 group">
+                    <img src="img/2.jpeg" class="w-full h-full object-cover transition duration-500 group-hover:scale-110">
+                </div>
+                <div class="overflow-hidden rounded-xl h-80 group">
+                    <img src="img/3.jpeg" class="w-full h-full object-cover transition duration-500 group-hover:scale-110">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contato" class="py-24 bg-gray-900 text-white">
+        <div class="container mx-auto px-6">
+            <div class="grid lg:grid-cols-2 gap-16 items-start">
+                <div class="reveal">
+                    <h2 class="text-4xl font-bold mb-8">Informações de Contato</h2>
+                    <div class="space-y-6 text-gray-300">
+                        <p><strong class="text-white block">Razão Social:</strong> BIG-FARMA PRODUTOS FARMACEUTICOS E HOSPITALARES LTDA</p>
+                        <p><strong class="text-white block">CNPJ:</strong> 20.139.603/0001-86</p>
+                        <p><strong class="text-white block">Endereço:</strong> AV TANCREDO DE ALMEIDA NEVES, 1034</p>
+                        <p><strong class="text-white block">Bairro:</strong> PARQUE AEROPORTO</p>
+                        <p><strong class="text-white block">Cidade:</strong> MACAÉ - RJ</p>
+                        <p><strong class="text-white block">CEP:</strong> 27.963-736</p>
+                        <p><strong class="text-white block">Telefone:</strong> (22) 9944-4370</p>
+                        <p><strong class="text-white block">E-mail:</strong> hubner20@hotmail.com</p>
+                    </div>
+                </div>
+                <div class="h-[500px] rounded-2xl overflow-hidden shadow-2xl reveal">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d7380.698372207373!2d-41.76541785751873!3d-22.340440318630808!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1sAV%20TANCREDO%20DE%20ALMEIDA%20NEVES%2C%201034%20Bairro%3A%20PARQUE%20AEROPORTO%20Cidade%3A%20MACA%C3%89%20-%20RJ%20CEP%3A%2027.963-736!5e0!3m2!1spt-BR!2sbr!4v1778851789739!5m2!1spt-BR!2sbr"!4v1715714400000!5m2!1spt-BR!2sbr" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="bg-black py-10 text-center text-gray-500 border-t border-gray-800">
+        <div class="container mx-auto px-6">
+            <p class="mb-2">© 2026 BIG-FARMA PRODUTOS FARMACEUTICOS E HOSPITALARES LTDA | CNPJ: 20.139.603/0001-86</p>
+            <button id="open-privacy" class="hover:text-white underline transition">Política de Privacidade</button>
+        </div>
+    </footer>
+
+    <div id="modal-privacy" class="fixed inset-0 z-[100] hidden flex items-center justify-center p-6 bg-black/80 backdrop-blur-sm">
+        <div class="bg-white rounded-2xl max-w-2xl w-full max-h-[80vh] overflow-y-auto p-8 relative">
+            <button id="close-privacy" class="absolute top-4 right-4 text-gray-400 hover:text-black text-2xl">&times;</button>
+            <h3 class="text-2xl font-bold mb-6">Política de Privacidade</h3>
+            <div class="space-y-4 text-gray-600">
+                <p>Este site é institucional e tem como único objetivo informar sobre os produtos e serviços da empresa Multi Farma Aero.</p>
+                <p><strong>Coleta de Dados:</strong> Informamos que não coletamos dados pessoais, cookies ou informações de navegação de forma automatizada através deste site.</p>
+                <p><strong>Links Externos:</strong> O botão de WhatsApp redireciona o usuário para uma plataforma externa. Recomendamos a leitura dos termos de privacidade do WhatsApp ao utilizá-lo.</p>
+                <p><strong>Alterações:</strong> Esta política pode ser atualizada a qualquer momento sem aviso prévio.</p>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
